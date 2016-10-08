@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController , NavParams} from 'ionic-angular';
+import {Observable} from 'rxjs/Observable';
+import 'rxjs/add/operator/map';
 
 /*
   Generated class for the Forcast page.
@@ -12,7 +14,7 @@ import { NavController , NavParams} from 'ionic-angular';
   templateUrl: 'forcast.html'
 })
 export class Forcast {
-  weatherList : [];
+  
 
   constructor(public navCtrl: NavController,public navParams: NavParams) {
 
